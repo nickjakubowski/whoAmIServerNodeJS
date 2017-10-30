@@ -4,7 +4,7 @@
   "description": "A tool to help organize life and achieve goals",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,10 @@
   "homepage": "https://github.com/nickjakubowski/whoAmIServerNodeJS#readme",
   "dependencies": {
     "express": "^4.16.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^4.0.1"
   }
 }
